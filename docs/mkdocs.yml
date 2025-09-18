@@ -1,0 +1,46 @@
+site_name: ""
+repo_url: https://github.com/Chie-aqui/Chie-aqui_docs
+      
+extra_css:
+  - assets/stylesheets/style.css
+
+nav:
+  - Home: index.md
+  - Backlog: 
+    - Histórias de Usuário: backlog/historias.md
+  - Arquitetura:
+    - Arquitetura Selecionada: arquitetura/arquitetura.md
+    - Tecnologias Utilizadas: arquitetura/tecnologias.md
+    - Diagrama de Classes: diagramas/diagrama-classes.md
+
+theme:
+  logo: assets/logo.png
+  name: material
+  font:
+    text: IBM Plex Serif
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue
+      accent: lightblue
+      toggle:
+        icon: material/weather-night
+        name: Trocar para modo escuro
+
+    - scheme: slate
+      primary: blue
+      accent: lightblue
+      toggle:
+        icon: material/weather-sunny
+        name: Trocar para modo claro
+  icon:
+    repo: fontawesome/brands/github
+
+
+markdown_extensions:
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
