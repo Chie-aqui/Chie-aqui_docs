@@ -1,4 +1,4 @@
-# 📌 Histórias de Usuário – Plataforma Reclame Aqui Acadêmica  
+# Histórias de Usuário – Plataforma Chie-Aqui  
 
 ## Introdução
 Este documento apresenta as histórias de usuário do **Sistema de Reclamações**, uma plataforma que conecta **usuários consumidores** a **empresas**, permitindo registrar reclamações, responder e acompanhar resoluções.  
