@@ -11,7 +11,7 @@ nav:
   - Arquitetura:
     - Arquitetura Selecionada: arquitetura/arquitetura.md
     - Tecnologias Utilizadas: arquitetura/tecnologias.md
-    - Diagrama de Classes: diagramas/diagrama-classes.md
+    - Diagrama de Classes: arquitetura/diagrama.md
 
 theme:
   logo: assets/logo.png
