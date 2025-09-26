@@ -46,7 +46,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/style.css">
+      <link rel="stylesheet" href="../../assets/style.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -92,7 +92,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="" class="md-header__button md-logo" aria-label="" data-md-component="logo">
       
-  <img src="../../assets/logo.png" alt="logo">
+  <img src="../../assets/chie_aqui_logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -299,7 +299,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="" class="md-nav__button md-logo" aria-label="" data-md-component="logo">
       
-  <img src="../../assets/logo.png" alt="logo">
+  <img src="../../assets/chie_aqui_logo.png" alt="logo">
 
     </a>
     
@@ -546,42 +546,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#backend" class="md-nav__link">
-    <span class="md-ellipsis">
-      Backend
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frontend" class="md-nav__link">
-    <span class="md-ellipsis">
-      Frontend
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#banco-de-dados" class="md-nav__link">
-    <span class="md-ellipsis">
-      Banco de Dados
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#infraestrutura" class="md-nav__link">
-    <span class="md-ellipsis">
-      Infraestrutura
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -656,42 +620,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#backend" class="md-nav__link">
-    <span class="md-ellipsis">
-      Backend
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#frontend" class="md-nav__link">
-    <span class="md-ellipsis">
-      Frontend
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#banco-de-dados" class="md-nav__link">
-    <span class="md-ellipsis">
-      Banco de Dados
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#infraestrutura" class="md-nav__link">
-    <span class="md-ellipsis">
-      Infraestrutura
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -716,86 +644,112 @@
 <p>O projeto utiliza uma arquitetura moderna separando claramente as responsabilidades entre <strong>backend (API REST)</strong>, <strong>frontend (interface de usuário)</strong>, <strong>banco de dados (persistência)</strong> e <strong>infraestrutura (deployment e gerenciamento)</strong>.</p>
 <p>Cada tecnologia foi escolhida para garantir a melhor experiência tanto para desenvolvedores quanto para usuários finais, priorizando ferramentas maduras e amplamente adotadas no mercado.</p>
 <hr />
-<h2 id="backend">Backend</h2>
+<h2>Tecnologias Utilizadas</h2>
+
+<h3>Introdução</h3>
+<p>O projeto utiliza uma arquitetura moderna separando claramente as responsabilidades entre <strong>backend (API REST)</strong>, <strong>frontend (interface de usuário)</strong>, <strong>banco de dados (persistência)</strong> e <strong>infraestrutura (deployment e gerenciamento)</strong>.</p>
+<p>Cada tecnologia foi escolhida para garantir a melhor experiência tanto para desenvolvedores quanto para usuários finais, priorizando ferramentas maduras e amplamente adotadas no mercado.</p>
+
+<hr>
+
+<h3>Backend</h3>
 <table>
-<thead>
-<tr>
-<th>Tecnologia</th>
-<th>Imagem</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Django</strong></td>
-<td></td>
-<td>Framework web robusto e amplamente utilizado no desenvolvimento de aplicações em Python. Fornece um conjunto completo de ferramentas integradas, incluindo ORM nativo, sistema de autenticação, administração e segurança.</td>
-</tr>
-<tr>
-<td><strong>Django REST Framework (DRF)</strong></td>
-<td></td>
-<td>Biblioteca poderosa para construção de APIs REST com Django. Oferece serialização de dados, autenticação, controle de permissões, paginação e documentação automática. Facilita a criação de endpoints escaláveis e bem estruturados.</td>
-</tr>
-</tbody>
+    <thead>
+        <tr>
+            <th>Tecnologia</th>
+            <th>Imagem</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Django</strong></td>
+            <td>
+                <img src="../../assets/django.png" width="100">
+            </td>
+            <td>Framework web robusto e amplamente utilizado no desenvolvimento de aplicações em Python. Fornece um conjunto completo de ferramentas integradas, incluindo ORM nativo, sistema de autenticação, administração e segurança.</td>
+        </tr>
+        <tr>
+            <td><strong>Django REST Framework (DRF)</strong></td>
+            <td>
+                <img src="../../assets/drf.png" width="100">
+            </td>
+            <td>Biblioteca poderosa para construção de APIs REST com Django. Oferece serialização de dados, autenticação, controle de permissões, paginação e documentação automática. Facilita a criação de endpoints escaláveis e bem estruturados.</td>
+        </tr>
+    </tbody>
 </table>
-<hr />
-<h2 id="frontend">Frontend</h2>
+
+<hr>
+
+<h3>Frontend</h3>
 <table>
-<thead>
-<tr>
-<th>Tecnologia</th>
-<th>Imagem</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>React</strong></td>
-<td></td>
-<td>Biblioteca JavaScript para construção de interfaces de usuário interativas. Baseada em componentes reutilizáveis, oferece um virtual DOM para alta performance, gerenciamento de estado eficiente e um ecossistema rico de ferramentas e bibliotecas.</td>
-</tr>
-</tbody>
+    <thead>
+        <tr>
+            <th>Tecnologia</th>
+            <th>Imagem</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>React</strong></td>
+            <td>
+                <img src="../../assets/react.png" width="100">
+            </td>
+            <td>Biblioteca JavaScript para construção de interfaces de usuário interativas. Baseada em componentes reutilizáveis, oferece um virtual DOM para alta performance, gerenciamento de estado eficiente e um ecossistema rico de ferramentas e bibliotecas.</td>
+        </tr>
+    </tbody>
 </table>
-<hr />
-<h2 id="banco-de-dados">Banco de Dados</h2>
+
+<hr>
+
+<h3>Banco de Dados</h3>
 <table>
-<thead>
-<tr>
-<th>Tecnologia</th>
-<th>Imagem</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>PostgreSQL</strong></td>
-<td></td>
-<td>Sistema de gerenciamento de banco de dados relacional de código aberto. Oferece conformidade com padrões SQL, suporte a transações ACID, recursos avançados como índices, views materializadas e extensibilidade através de funções customizadas.</td>
-</tr>
-</tbody>
+    <thead>
+        <tr>
+            <th>Tecnologia</th>
+            <th>Imagem</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>PostgreSQL</strong></td>
+            <td>
+                <img src="../../assets/postgres.png" width="100">
+            </td>
+            <td>Sistema de gerenciamento de banco de dados relacional de código aberto. Oferece conformidade com padrões SQL, suporte a transações ACID, recursos avançados como índices, views materializadas e extensibilidade através de funções customizadas.</td>
+        </tr>
+    </tbody>
 </table>
-<hr />
-<h2 id="infraestrutura">Infraestrutura</h2>
+
+<hr>
+
+<h3>Infraestrutura</h3>
 <table>
-<thead>
-<tr>
-<th>Tecnologia</th>
-<th>Imagem</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Docker</strong></td>
-<td></td>
-<td>Plataforma de containerização que permite empacotar aplicações e suas dependências em containers leves e portáteis. Facilita o deployment, escalabilidade e garante consistência entre ambientes de desenvolvimento, teste e produção.</td>
-</tr>
-<tr>
-<td><strong>pgAdmin</strong></td>
-<td></td>
-<td>Ferramenta de administração e gerenciamento web para PostgreSQL. Oferece interface gráfica intuitiva para executar consultas SQL, gerenciar usuários, monitorar performance, criar backups e administrar bancos de dados PostgreSQL de forma visual.</td>
-</tr>
-</tbody>
+    <thead>
+        <tr>
+            <th>Tecnologia</th>
+            <th>Imagem</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>Docker</strong></td>
+            <td>
+                <img src="../../assets/docker.png" width="100">
+            </td>
+            <td>Plataforma de containerização que permite empacotar aplicações e suas dependências em containers leves e portáteis. Facilita o deployment, escalabilidade e garante consistência entre ambientes de desenvolvimento, teste e produção.</td>
+        </tr>
+        <tr>
+            <td><strong>pgAdmin</strong></td>
+            <td>
+                <img src="../../assets/pgadmin.png" width="100">
+            </td>
+            <td>Ferramenta de administração e gerenciamento web para PostgreSQL. Oferece interface gráfica intuitiva para executar consultas SQL, gerenciar usuários, monitorar performance, criar backups e administrar bancos de dados PostgreSQL de forma visual.</td>
+        </tr>
+    </tbody>
 </table>
 
 
