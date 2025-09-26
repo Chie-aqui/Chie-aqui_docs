@@ -47,7 +47,7 @@ As histórias foram priorizadas usando o método **MoSCoW**, considerando o valo
 |------|-------------------------------------------------------------------------------------------|--------------|
 | US20 | Como administrador, quero visualizar todos os consumidores cadastrados.                   | Must have    |
 | US21 | Como administrador, quero visualizar todas as empresas cadastradas.                       | Must have    |
-| US22 | Como administrador, quero remover usuários ou empresas que violem regras.                 | Must have    |
+| US22 | Como administrador, quero remover usuários ou empresas.                                   | Must have    |
 | US23 | Como administrador, quero visualizar todas as reclamações feitas no sistema.              | Must have    |
 | US24 | Como administrador, quero buscar consumidores/empresas por email ou CNPJ.                 | Should have  |
 | US25 | Como administrador, quero ver relatórios de quantidade de reclamações por empresa.        | Could have   |
@@ -59,8 +59,7 @@ As histórias foram priorizadas usando o método **MoSCoW**, considerando o valo
 | US28 | Como usuário do sistema, quero que as reclamações tenham **status** (Aberta, Respondida, Encerrada). | Must have    |
 | US29 | Como usuário do sistema, quero que reclamações tenham IDs únicos para rastreamento.       | Must have    |
 | US30 | Como usuário do sistema, quero que existam filtros de reclamações por empresa e status.   | Should have  |
-| US31 | Como usuário do sistema, quero que o sistema envie emails automáticos em eventos-chave (nova reclamação, resposta, encerramento). | Could have   |
-| US32 | Como administrador, quero que o sistema registre logs de todas as ações.                  | Must have    |
+
 
 ---
 

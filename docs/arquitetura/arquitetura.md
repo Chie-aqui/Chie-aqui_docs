@@ -1,7 +1,7 @@
-#  Documento de Arquitetura – Sistema Reclame Aqui Acadêmico
+#  Documento de Arquitetura – Chie-Aqui
 
 ## Introdução
-Este documento descreve a arquitetura escolhida para o **Sistema Reclame Aqui Acadêmico**, detalhando como os componentes se organizam e interagem para formar uma aplicação web robusta, modular e escalável.  
+Este documento descreve a arquitetura escolhida para o **Sistema Chie-Aqui Acadêmico**, detalhando como os componentes se organizam e interagem para formar uma aplicação web robusta, modular e escalável.  
 
 O sistema foi desenvolvido com **Django** e **Django REST Framework (DRF)**, utilizando **PostgreSQL** como banco de dados relacional e **containerização com Docker** para facilitar a portabilidade e o deployment.  
 

@@ -2,7 +2,8 @@ site_name: ""
 repo_url: https://github.com/Chie-aqui/Chie-aqui_docs
       
 extra_css:
-  - assets/stylesheets/style.css
+  - assets/style.css
+
 
 nav:
   - Home: index.md
@@ -14,7 +15,7 @@ nav:
     - Diagrama de Classes: arquitetura/diagrama.md
 
 theme:
-  logo: assets/logo.png
+  logo: assets/chie_aqui_logo.png
   name: material
   font:
     text: IBM Plex Serif

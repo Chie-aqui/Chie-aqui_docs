@@ -23,13 +23,13 @@ O sistema é uma aplicação console simples e intuitiva. Para começar a explor
 ## Tipos de Usuário
 
 ### Usuário
-Pessoas interessadas em alugar ou comprar imóveis. Podem visualizar propriedades, favoritar, agendar visitas e fazer propostas.
+Pessoas que utilizam o Chie-Aqui para registrar reclamações, avaliações ou feedbacks sobre produtos ou serviços. Podem buscar empresas, postar reclamações, responder a respostas de empresas e avaliar a experiência com as empresas.
 
 ### Proprietário  
-Donos de imóveis que desejam anunciá-los na plataforma. Podem cadastrar casas e apartamentos, gerenciar propostas e visitas.
+Negócios ou marcas registradas na plataforma Chie-Aqui que respondem às reclamações dos consumidores. Elas podem visualizar e responder às reclamações, acompanhar a reputação da sua marca, registrar informações adicionais e gerenciar a comunicação com os consumidores.
 
 ### Administrador
-Responsáveis pela moderação da plataforma. Têm controle total sobre usuários, proprietários e imóveis cadastrados.
+Responsáveis pela moderação da plataforma Chie-Aqui, garantindo que as interações entre consumidores e empresas sigam as políticas e regras do site. Podem administrar reclamações, feedbacks e garantir que o conteúdo esteja de acordo com os padrões da plataforma.
 
 
 ---
