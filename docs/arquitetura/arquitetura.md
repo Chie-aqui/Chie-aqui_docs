@@ -48,9 +48,8 @@ Nem sempre é explicitada no Django, mas pode ser organizada em **services.py**:
 Gerenciada pelo **Django ORM**:  
 - Definição de **Models** representando as entidades (Usuário, Empresa, Reclamação, Resposta)  
 - Criação automática de tabelas no PostgreSQL via **Migrations**  
-- Operações CRUD com abstração em Python (`.objects.create()`, `.filter()`, etc.)  
-- Relacionamentos (OneToMany, ManyToMany, ForeignKey)  
-- Proteção contra SQL Injection de forma nativa  
+- Operações CRUD com abstração em Python
+- Relacionamentos (OneToMany, ManyToMany, ForeignKey, OneToOne)  
 
 ---
 
@@ -59,7 +58,7 @@ Fornecida pelo **Django Rest Framework**:
 - Validação de dados de entrada da API  
 - Transformação de objetos Django (Models) em **JSON**  
 - Definição de regras de serialização e deserialização  
-- Suporte a **nested serializers** para entidades relacionadas  
+<!-- - Suporte a **nested serializers** para entidades relacionadas   -->
 
 ---
 
@@ -95,4 +94,3 @@ Fornecida pelo **Django Rest Framework**:
 - **Testabilidade**: DRF permite testes unitários e de integração de endpoints  
 - **Escalabilidade**: Suporte a cache, balanceamento de carga e horizontal scaling  
 - **Segurança**: Proteções nativas contra SQL Injection, CSRF e XSS  
-- **Extensibilidade**: Fácil integração com bibliotecas externas (JWT, Swagger, Celery)  
