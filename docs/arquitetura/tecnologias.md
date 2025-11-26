@@ -56,9 +56,9 @@ Cada tecnologia foi escolhida para garantir a melhor experiência tanto para des
         <tr>
             <td><strong>React</strong></td>
             <td>
-                <img src="../../assets/react.png" width="100">
+                <img src="../../assets/next.png" width="100">
             </td>
-            <td>Biblioteca JavaScript para construção de interfaces de usuário interativas. Baseada em componentes reutilizáveis, oferece um virtual DOM para alta performance, gerenciamento de estado eficiente e um ecossistema rico de ferramentas e bibliotecas.</td>
+            <td>Framework React completo (Full-stack) que permite renderização do lado do servidor (SSR), geração de sites estáticos (SSG) e roteamento de sistema de arquivos. É otimizado para performance e produção, sendo a base para o desenvolvimento do Frontend.</td>
         </tr>
     </tbody>
 </table>

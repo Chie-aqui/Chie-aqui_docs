@@ -25,11 +25,8 @@ O sistema é uma aplicação console simples e intuitiva. Para começar a explor
 ### Usuário
 Pessoas que utilizam o Chie-Aqui para registrar reclamações, avaliações ou feedbacks sobre produtos ou serviços. Podem buscar empresas, postar reclamações, responder a respostas de empresas e avaliar a experiência com as empresas.
 
-### Proprietário  
+### Empresas
 Negócios ou marcas registradas na plataforma Chie-Aqui que respondem às reclamações dos consumidores. Elas podem visualizar e responder às reclamações, acompanhar a reputação da sua marca, registrar informações adicionais e gerenciar a comunicação com os consumidores.
-
-### Administrador
-Responsáveis pela moderação da plataforma Chie-Aqui, garantindo que as interações entre consumidores e empresas sigam as políticas e regras do site. Podem administrar reclamações, feedbacks e garantir que o conteúdo esteja de acordo com os padrões da plataforma.
 
 
 ---

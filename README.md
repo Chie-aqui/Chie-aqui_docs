@@ -32,15 +32,15 @@ O **Chie Aqui** busca oferecer uma ferramenta que:
 - **Geração de Estatísticas:** As empresas terão acesso a estatísticas sobre seu desempenho e satisfação do consumidor.  
 - **Relatórios Administrativos:** Administradores podem gerar relatórios sobre o uso da plataforma.  
 
-## 🤖 Identidade Visual
+## Identidade Visual
 
 A identidade visual foi pensada para refletir transparência, confiança e facilidade de uso.  
-O logo e a paleta de cores trazem tons claros e amigáveis, com destaque em **azul**, transmitindo segurança e credibilidade.  
+O logo e a paleta de cores trazem tons claros e amigáveis, com destaque em **azul**.  
 
 - *Exemplo da Home:*  
   ![Home Page](docs/assets/chie_Aqui_home.png)
 
-## 📚 Documentação
+## Documentação
 
 A documentação completa do projeto está disponível [aqui](https://chie-aqui.github.io/Chie-aqui_docs/).  
 
